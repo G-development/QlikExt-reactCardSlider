@@ -1,0 +1,19 @@
+{
+    "bundle": {
+        "id": "NTT-extension",
+        "name": "NTT Estensioni Custom",
+        "description": "Collezione di Estensioni sviluppate per esigenze particolari"
+    },
+    "name": "reactCardSlider",
+    "description": "",
+    "type": "visualization",
+    "version": "1.0.0",
+    "icon": "",
+    "author": "Giovanni Cuozzo",
+    "homepage": "",
+    "keywords": "qlik-sense, visualization",
+    "license": "",
+    "repository": {
+        "qlik-sense": ">=3.0.x"
+    }
+}

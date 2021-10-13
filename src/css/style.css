@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green { color: green; }
+.red { color: red; }
+
+.glide__slide {
+  padding: 15px;
+}
+
+.glide__slides {
+  align-items: center;
+}
+
+/* Arrows */
+.arrowContainer {
+  display: block;
+}
+
+.buttonArrow {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  top: 50%;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonArrow:hover {
+  transform: scale(1.3);
+}
+
+.buttonArrow img path{
+  fill: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .arrowContainer {
+    display: none;
+  }
+}
